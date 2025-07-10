@@ -37,8 +37,7 @@ Untuk menjalankan dan mereplikasi proyek ini di lingkungan lokal Anda, ikuti lan
     git clone https://github.com/abdazizhamud/dapa-ganteng-datathon-ristek.git
     ```
 
-    *(**Catatan:** Ganti `[nama_pengguna_github_anda]` dan `[nama_repositori_anda]` dengan nama pengguna GitHub dan nama repositori Anda yang sebenarnya.)*
-
+    
 2.  **Masuk ke direktori proyek:**
 
     ```bash
@@ -65,6 +64,6 @@ Untuk menjalankan dan mereplikasi proyek ini di lingkungan lokal Anda, ikuti lan
 
 ## Struktur Proyek
 
-* `notebooks/`: Berisi file Jupyter Notebook (`.ipynb`) utama yang mendetailkan analisis, implementasi model, dan hasil.
+* `halodoc.ipynb`: File Jupyter Notebook (`.ipynb`) utama yang mendetailkan analisis, implementasi model, dan hasil.
 * `requirements.txt`: Daftar pustaka Python yang diperlukan untuk menjalankan proyek.
 * `README.md`: Berkas ini, memberikan gambaran umum proyek.
