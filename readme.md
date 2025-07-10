@@ -12,8 +12,8 @@
 
 ## Abstrak
 
-{Halodoc adalah salah satu platform layanan kesehatan digital yang paling populer di Indonesia. Namun, tingginya jumlah ulasan negatif di Google Play Store menunjukkan bahwa masih terdapat tantangan dalam kualitas layanan yang diberikan. Penelitian ini bertujuan untuk melakukan analisis sentimen terhadap ulasan pengguna aplikasi Halodoc yang diambil dari Google Play Store. Dengan menggunakan pendekatan pemrosesan teks dan klasifikasi berbasis rule-based, kami memetakan sentimen pengguna serta mengidentifikasi aspek layanan yang paling banyak dikeluhkan. Visualisasi wordcloud, distribusi rating, dan analisis frekuensi kata menunjukkan bahwa masalah utama berkaitan dengan layanan dokter, sistem pembayaran, dan respons customer service. Rekomendasi perbaikan layanan kemudian disusun berdasarkan hasil analisis. Penelitian ini diharapkan dapat menjadi masukan bagi pengembang Halodoc dalam meningkatkan kualitas layanan yang berkelanjutan.
-}
+Halodoc adalah salah satu platform layanan kesehatan digital yang paling populer di Indonesia. Namun, tingginya jumlah ulasan negatif di Google Play Store menunjukkan bahwa masih terdapat tantangan dalam kualitas layanan yang diberikan. Penelitian ini bertujuan untuk melakukan analisis sentimen terhadap ulasan pengguna aplikasi Halodoc yang diambil dari Google Play Store. Dengan menggunakan pendekatan pemrosesan teks dan klasifikasi berbasis rule-based, kami memetakan sentimen pengguna serta mengidentifikasi aspek layanan yang paling banyak dikeluhkan. Visualisasi wordcloud, distribusi rating, dan analisis frekuensi kata menunjukkan bahwa masalah utama berkaitan dengan layanan dokter, sistem pembayaran, dan respons customer service. Rekomendasi perbaikan layanan kemudian disusun berdasarkan hasil analisis. Penelitian ini diharapkan dapat menjadi masukan bagi pengembang Halodoc dalam meningkatkan kualitas layanan yang berkelanjutan.
+
 
 ---
 
@@ -23,6 +23,14 @@ Dataset ulasan aplikasi Halodoc yang digunakan dalam proyek ini diperoleh dari *
 
 [**Link Dataset Hugging Face**](https://huggingface.co/datasets/kangdap/halodoc-app-review/viewer)
 
+
+
+---
+## Model
+
+Model yang digunakan dalam proyek ini dapat diakses atau akan tersedia di platform Hugging Face. Detail lebih lanjut mengenai model dapat diakses melalui tautan berikut:
+
+[**Link Model di Hugging Face**](https://huggingface.co/kangdap/Sentiment-Analysis)
 
 
 ---
