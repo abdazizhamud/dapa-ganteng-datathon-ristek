@@ -12,7 +12,8 @@
 
 ## Abstrak
 
-{isi abstraksi nanti}
+{Halodoc adalah salah satu platform layanan kesehatan digital yang paling populer di Indonesia. Namun, tingginya jumlah ulasan negatif di Google Play Store menunjukkan bahwa masih terdapat tantangan dalam kualitas layanan yang diberikan. Penelitian ini bertujuan untuk melakukan analisis sentimen terhadap ulasan pengguna aplikasi Halodoc yang diambil dari Google Play Store. Dengan menggunakan pendekatan pemrosesan teks dan klasifikasi berbasis rule-based, kami memetakan sentimen pengguna serta mengidentifikasi aspek layanan yang paling banyak dikeluhkan. Visualisasi wordcloud, distribusi rating, dan analisis frekuensi kata menunjukkan bahwa masalah utama berkaitan dengan layanan dokter, sistem pembayaran, dan respons customer service. Rekomendasi perbaikan layanan kemudian disusun berdasarkan hasil analisis. Penelitian ini diharapkan dapat menjadi masukan bagi pengembang Halodoc dalam meningkatkan kualitas layanan yang berkelanjutan.
+}
 
 ---
 
@@ -20,7 +21,7 @@
 
 Dataset ulasan aplikasi Halodoc yang digunakan dalam proyek ini diperoleh dari **Hugging Face**. Detail lebih lanjut mengenai dataset dapat diakses melalui tautan berikut:
 
-[**Link Dataset Hugging Face**](https://huggingface.co/datasets/[nama_dataset_halodoc_di_huggingface])
+[**Link Dataset Hugging Face**](https://huggingface.co/datasets/kangdap/halodoc-app-review/viewer)
 
 
 
@@ -33,7 +34,7 @@ Untuk menjalankan dan mereplikasi proyek ini di lingkungan lokal Anda, ikuti lan
 1.  **Clone repositori ini:**
 
     ```bash
-    git clone [https://github.com/](https://github.com/)[nama_pengguna_github_anda]/[nama_repositori_anda].git
+    git clone https://github.com/abdazizhamud/dapa-ganteng-datathon-ristek.git
     ```
 
     *(**Catatan:** Ganti `[nama_pengguna_github_anda]` dan `[nama_repositori_anda]` dengan nama pengguna GitHub dan nama repositori Anda yang sebenarnya.)*
@@ -41,18 +42,16 @@ Untuk menjalankan dan mereplikasi proyek ini di lingkungan lokal Anda, ikuti lan
 2.  **Masuk ke direktori proyek:**
 
     ```bash
-    cd [nama_repositori_anda]
+    cd dapa-ganteng-datathon-ristek
     ```
 
 3.  **Instal dependensi yang diperlukan:**
 
-    Sangat disarankan untuk membuat *virtual environment* terlebih dahulu.
-
+    Python yang digunakan: Python 3.10
     ```bash
     pip install -r requirements.txt
     ```
 
-    *(**Catatan:** Pastikan Anda memiliki file `requirements.txt` yang berisi daftar semua pustaka Python yang digunakan dalam proyek, seperti `tensorflow` atau `pytorch` (sesuai pilihan framework Anda), `pandas`, `numpy`, `scikit-learn`, `nltk`, `sastrawi`, dll.)*
 
 4.  **Buka notebook Jupyter:**
 
@@ -67,8 +66,5 @@ Untuk menjalankan dan mereplikasi proyek ini di lingkungan lokal Anda, ikuti lan
 ## Struktur Proyek
 
 * `notebooks/`: Berisi file Jupyter Notebook (`.ipynb`) utama yang mendetailkan analisis, implementasi model, dan hasil.
-* `data/`: Direktori untuk menyimpan dataset (jika diunduh secara lokal).
-* `models/`: Direktori untuk menyimpan model CNN yang telah dilatih.
-* `utils/`: (Opsional) Berisi skrip Python pendukung untuk pra-pemrosesan data, fungsi pembantu, dll.
 * `requirements.txt`: Daftar pustaka Python yang diperlukan untuk menjalankan proyek.
 * `README.md`: Berkas ini, memberikan gambaran umum proyek.
