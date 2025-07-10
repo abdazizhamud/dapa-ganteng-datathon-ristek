@@ -1,0 +1,11 @@
+google-play-scraper
+pandas
+numpy
+scikit-learn # Asumsi akan digunakan untuk split data atau metrik evaluasi
+nltk
+Sastrawi
+requests
+Pillow # Untuk PIL (Python Imaging Library)
+wordcloud
+matplotlib
+seaborn
